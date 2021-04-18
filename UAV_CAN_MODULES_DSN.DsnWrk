@@ -1,0 +1,6 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=UAV_CAN_MODULES\LIDAR_CAN_MODULES_PRJ.PrjPcb
+[Project2]
+ProjectPath=..\ROD-MANIPULATOR\lib\lib.LibPkg
