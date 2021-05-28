@@ -130,82 +130,90 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.DRR
+DocumentPath=Project Outputs for RodManipulator_PRJ\Assembly Testpoint Report for RodManipulator_PCB.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.EXTREP
+DocumentPath=Project Outputs for RodManipulator_PRJ\Pick Place for RodManipulator_PCB.txt
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GBL
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GBO
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GBP
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GBS
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GM1
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GM4
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GM13
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GM15
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GPB
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GPT
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GTL
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GTO
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GTP
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GTS
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.LDP
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.REP
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.RUL
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
 DocumentPath=Project Outputs for RodManipulator_PRJ\RodManipulator_PCB.TXT
 DItemRevisionGUID=
 
@@ -471,22 +479,66 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Assembly
-OutputName1=Assembly Drawings
+OutputType1=Test Points For Assembly
+OutputName1=Test Point Report
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=AssyAdjacencyDistance=250000|AssyGenerateCSVFormat=True|AssyGenerateIPCFormat=False|AssyGenerateSpreadSheetFormat=False|AssyGenerateTextFormat=False|AssyMergeNetTieNets=False|AssyOriginPosition=Relative|AssyOutlineLayer=56|AssyOutputAdjancencies=False|AssyOutputBoardOutline=False|AssyOutputTraces=False|AssyReportBottomLayerTestpoints=True|AssyReportTopLayerTestpoints=True|AssyUnits=Imperial|Record=TestPointView|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Vendor,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#18=Name:Copyright,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#19=Name:LatestRevisionNote,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#20=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#21=Name:SnapEDA_Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#22=Name:MF,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#23=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#24=Name:Organazation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#25=Name:Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#26=Name:MP,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#27=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#28=Name:Manufacturer_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#29=Name:System,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#30=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#31=Name:Built_By,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#32=Name:SourceLibrary,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#33=Name:Instructions,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#34=Name:Pacage Metric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#35=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#36=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#37=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#38=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#39=Name:Adding Date,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#40=Name:Publisher,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#41=Name:ChipDip_Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#42=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#43=Name:RefDes,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#44=Name:Designer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#45=Name:Availability,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#46=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#47=Name:Price,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#48=Name:Published,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+OutputType3=Assembly
+OutputName3=Assembly Drawings
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.90|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration3_Name1=ForceUpdateSettings
+Configuration3_Item1=False
+Configuration3_Name2=OutputConfigurationParameter1
+Configuration3_Item2=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name3=OutputConfigurationParameter2
+Configuration3_Item3=IncludeBoardCutouts=False|IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top LayerAssembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name4=OutputConfigurationParameter3
+Configuration3_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=TopLayer|Polygon=Hidden|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name5=OutputConfigurationParameter4
+Configuration3_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name6=OutputConfigurationParameter5
+Configuration3_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Hidden|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name7=OutputConfigurationParameter6
+Configuration3_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name8=OutputConfigurationParameter7
+Configuration3_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name9=OutputConfigurationParameter8
+Configuration3_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name10=OutputConfigurationParameter9
+Configuration3_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name11=OutputConfigurationParameter10
+Configuration3_Item11=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=False|IncludeViewports=True|Index=1|Mirror=False|Name=Bottom LayerAssembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name12=OutputConfigurationParameter11
+Configuration3_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=BottomLayer|Polygon=Hidden|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name13=OutputConfigurationParameter12
+Configuration3_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name14=OutputConfigurationParameter13
+Configuration3_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Hidden|Layer=MultiLayer|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name15=OutputConfigurationParameter14
+Configuration3_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name16=OutputConfigurationParameter15
+Configuration3_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name17=OutputConfigurationParameter16
+Configuration3_Item17=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
+Configuration3_Name18=OutputConfigurationParameter17
+Configuration3_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\workspace\UAV-CAN-MODULES\ROD-MANIPULATOR\RodManipulator_PCB.PcbDoc
 
 [OutputGroup5]
 Name=Fabrication Outputs
