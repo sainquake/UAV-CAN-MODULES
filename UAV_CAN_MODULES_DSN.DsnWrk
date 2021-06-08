@@ -1,8 +1,14 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=UAV_CAN_MODULES\LIDAR_CAN_MODULES_PRJ.PrjPcb
-[Project2]
-ProjectPath=ROD-MANIPULATOR\RodManipulator_PRJ.PrjPcb
-[Project3]
 ProjectPath=LIB\lib.LibPkg
+[Project2]
+ProjectPath=..\..\Users\rectifier\Desktop\2021-05-24_21-43-01\UL_Import.PrjScr
+[Project3]
+ProjectPath=..\..\Users\rectifier\Desktop\2021-05-24_21-43-01\2021-05-24_21-43-01.LibPkg
+[Project4]
+ProjectPath=ROD-MANIPULATOR\RodManipulator_PRJ.PrjPcb
+[Project5]
+ProjectPath=..\..\Users\Public\Documents\Stencil\Stencil.PrjPcb
+[Project6]
+ProjectPath=..\..\Users\rectifier\Desktop\CAN_NODE_MINI_v2\CAN_NODE_MINI v2\CAN_NODE_MINI.PrjPcb
