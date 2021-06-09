@@ -5,7 +5,7 @@ Project Logs for */
 *.PrjPcbStructure
 *.pdf
 *.xls
-*.step
+#*.step
 *.rar
 *.jpg
 *.rar
