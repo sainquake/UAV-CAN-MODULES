@@ -2,8 +2,10 @@
 FileName = PATTERN-GENERATOR-NODE-PCB.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : PATTERN-GENERATOR-NODE-PCB.GTL
+Generating : Top Paste
+      File : PATTERN-GENERATOR-NODE-PCB.GTP
+
+    Adding Layer      : Top Paste
 
     Adding Layer      : Top Layer
 
@@ -11,13 +13,6 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D15
-    D17
-    D18
     D21
     D22
     D23
@@ -34,12 +29,65 @@ Used DCodes :
     D34
     D35
     D36
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 2
+      File : PATTERN-GENERATOR-NODE-PCB.GM2
+
+    Adding Layer      : Mechanical 2
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : PATTERN-GENERATOR-NODE-PCB.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D13
+    D14
+    D17
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
 *************************************************************
 
 *************************************************************
@@ -68,8 +116,50 @@ Used DCodes :
     D34
     D35
     D36
+    D37
+    D38
+    D39
+    D40
+    D66
+    D67
+    D68
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : PATTERN-GENERATOR-NODE-PCB.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
     D57
     D58
+    D59
+    D60
+    D61
+    D62
+    D63
 *************************************************************
 
 *************************************************************
@@ -94,33 +184,93 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : PATTERN-GENERATOR-NODE-PCB.GTP
+Generating : Bottom Paste
+      File : PATTERN-GENERATOR-NODE-PCB.GBP
 
-    Adding Layer      : Top Paste
+    Adding Layer      : Bottom Paste
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
     D33
     D34
     D35
     D36
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PATTERN-GENERATOR-NODE-PCB.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : PATTERN-GENERATOR-NODE-PCB.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D10
+    D12
+    D77
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 16
+      File : PATTERN-GENERATOR-NODE-PCB.GM16
+
+    Adding Layer      : Mechanical 16
+
+
+Used DCodes :
+    D12
+    D78
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : PATTERN-GENERATOR-NODE-PCB.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D33
+    D34
+    D35
+    D36
+    D64
+    D67
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 4
+      File : PATTERN-GENERATOR-NODE-PCB.GM4
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D10
+    D12
+    D16
+    D75
+    D76
 *************************************************************
 
 *************************************************************
@@ -135,96 +285,14 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D39
-    D40
-    D42
-    D43
-    D53
-    D62
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : PATTERN-GENERATOR-NODE-PCB.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
     D54
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : PATTERN-GENERATOR-NODE-PCB.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D23
-    D24
-    D26
-    D27
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : PATTERN-GENERATOR-NODE-PCB.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D19
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : PATTERN-GENERATOR-NODE-PCB.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 13
-      File : PATTERN-GENERATOR-NODE-PCB.GM13
-
-    Adding Layer      : Mechanical 13
-
-
-Used DCodes :
-    D15
-    D65
+    D55
+    D56
+    D57
+    D62
+    D72
+    D73
+    D74
 *************************************************************
 
 *************************************************************
@@ -235,69 +303,20 @@ Generating : Mechanical 15
 
 
 Used DCodes :
-    D13
-    D65
-    D66
+    D11
+    D77
+    D78
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 16
-      File : PATTERN-GENERATOR-NODE-PCB.GM16
+Generating : Mechanical 1
+      File : PATTERN-GENERATOR-NODE-PCB.GM1
 
-    Adding Layer      : Mechanical 16
+    Adding Layer      : Mechanical 1
 
 
 Used DCodes :
-    D15
-    D66
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : PATTERN-GENERATOR-NODE-PCB.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D23
-    D24
-    D26
-    D27
-    D55
-    D56
-    D57
-    D59
-    D60
-    D61
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 4
-      File : PATTERN-GENERATOR-NODE-PCB.GM4
-
-    Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-    D10
-    D15
-    D16
-    D63
-    D64
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 2
-      File : PATTERN-GENERATOR-NODE-PCB.GM2
-
-    Adding Layer      : Mechanical 2
-
-
-Used DCodes :
+    D11
 *************************************************************
 
 *************************************************************
@@ -310,11 +329,11 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D23
-    D24
-    D26
-    D27
-    D57
-    D61
+    D33
+    D34
+    D35
+    D36
+    D67
+    D71
 *************************************************************
 

@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: PATTERN-GENERATOR-NODE-PCB.PcbDoc   6/10/2021  9:10:35 AM
+NCDrill File Report For: PATTERN-GENERATOR-NODE-PCB.PcbDoc   6/11/2021  12:10:37 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,11 +7,11 @@ ASCII RoundHoles File : PATTERN-GENERATOR-NODE-PCB.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             35        PTH        0.00mm (0.00inch)
+T1      0.3mm (12mil)                                             Round             42        PTH        0.00mm (0.00inch)
 T2      0.6mm (24mil)                                             Round             4         PTH        0.00mm (0.00inch)
-T3      0.711mm (28mil)                                           Round             12        PTH        0.00mm (0.00inch)
+T3      0.711mm (28mil)                                           Round             2163      PTH        0.00mm (0.00inch)
 T4      3.2mm (126mil)                                            Round             5         PTH        0.00mm (0.00inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              56
+Totals                                                                              2214
 
 Total Processing Time (hh:mm:ss) : 00:00:00

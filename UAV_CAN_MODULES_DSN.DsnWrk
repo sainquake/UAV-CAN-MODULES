@@ -13,6 +13,4 @@ ProjectPath=..\..\Users\Public\Documents\Stencil\Stencil.PrjPcb
 [Project6]
 ProjectPath=..\..\Users\rectifier\Desktop\CAN_NODE_MINI_v2\CAN_NODE_MINI v2\CAN_NODE_MINI.PrjPcb
 [Project7]
-ProjectPath=LANDING-STATION\LANDING-STATION-noCTRL\PATTERN-GENERATOR-NODE-NOCTRL-PRJ.PrjPcb
-[Project8]
-ProjectPath=LANDING-STATION\PATTERN-GENERATOR-NODE-PRJ.PrjPcb
+ProjectPath=PATTERN-GENERATOR-NODE\PATTERN-GENERATOR-NODE-PRJ.PrjPcb
