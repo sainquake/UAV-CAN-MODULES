@@ -61,7 +61,17 @@ static void MX_TIM4_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 Leds_Color_t colors;
-const uint32_t RGB_PALLET[MAX_NUM_OF_LEDS] = {0xff2828, 0xff7c28, 0xffd128, 0xebff28, 0x97ff28, 0x42ff28, 0x28ffb6, 0x28d5ff, 0x28b1ff, 0x285dff, 0x4828ff, 0x9c28ff, 0xf028ff, 0xff28cb, 0xff2877, 0xc1c1c1};
+const uint32_t RGB_PALLET[MAX_NUM_OF_LEDS] = {
+/*
+ *    1		2		   3		4	    	5		6		7			8		9			10		11			12		  13		14		  15 		16
+ */
+
+0xff2828, 0xff7c28, 0xffd128, 0xebff28, 0x97ff28, 0x42ff28, 0x28ffb6, 0x28d5ff, 0x28b1ff, 0x285dff, 0x4828ff, 0x9c28ff, 0xf028ff, 0xff28cb, 0xff2877, 0xc1c1c1,//0
+0xff2828, 0xff7c28, 0xffd128, 0xebff28, 0x97ff28, 0x42ff28, 0x28ffb6, 0x28d5ff, 0x28b1ff, 0x285dff, 0x4828ff, 0x9c28ff, 0xf028ff, 0xff28cb, 0xff2877, 0xc1c1c1,//1
+0xff2828, 0xff7c28, 0xffd128, 0xebff28, 0x97ff28, 0x42ff28, 0x28ffb6, 0x28d5ff, 0x28b1ff, 0x285dff, 0x4828ff, 0x9c28ff, 0xf028ff, 0xff28cb, 0xff2877, 0xc1c1c1,//2
+0xff2828, 0xff7c28, 0xffd128, 0xebff28, 0x97ff28, 0x42ff28, 0x28ffb6, 0x28d5ff, 0x28b1ff, 0x285dff, 0x4828ff, 0x9c28ff, 0xf028ff, 0xff28cb, 0xff2877, 0xc1c1c1,//3
+0xff2828, 0xff7c28, 0xffd128, 0xebff28, 0x97ff28, 0x42ff28, 0x28ffb6, 0x28d5ff, 0x28b1ff, 0x285dff, 0x4828ff, 0x9c28ff, 0xf028ff, 0xff28cb, 0xff2877, 0xc1c1c1 //4
+};
 
 /* USER CODE END 0 */
 
@@ -97,16 +107,17 @@ int main(void)
   MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
   for (int var = 0; var < MAX_NUM_OF_LEDS; ++var) {
-	if((var%16)<4){
-	  	colors.colors[var].shades.red   = (uint8_t)((0xff0000 & 0xff0000)>>16);
-	  	colors.colors[var].shades.green = (uint8_t)((0x00ff00 & 0xff0000)>>8);
-	  	colors.colors[var].shades.blue  = (uint8_t)((0x0000ff & 0xff0000));
-	}
-	else{
-  	colors.colors[var].shades.red   = (uint8_t)((0xff0000 & 0x00ff00)>>16);
-  	colors.colors[var].shades.green = (uint8_t)((0x00ff00 & 0x00ff00)>>8);
-  	colors.colors[var].shades.blue  = (uint8_t)((0x0000ff & 0x00ff00));
-	}
+//	if((var%16)<4){
+//	  	colors.colors[var].shades.red   = (uint8_t)((0xff0000 & 0xff0000)>>16);
+//	  	colors.colors[var].shades.green = (uint8_t)((0x00ff00 & 0xff0000)>>8);
+//	  	colors.colors[var].shades.blue  = (uint8_t)((0x0000ff & 0xff0000));
+//	}
+//	else
+
+  	colors.colors[var].shades.red   = (uint8_t)((0xff0000 & RGB_PALLET[var])>>16);
+  	colors.colors[var].shades.green = (uint8_t)((0x00ff00 & RGB_PALLET[var])>>8);
+  	colors.colors[var].shades.blue  = (uint8_t)((0x0000ff & RGB_PALLET[var]));
+
   }
   if(rgbLedsInit(MAX_NUM_OF_LEDS, &htim4, TIM_CHANNEL_2)== STATUS_OK){
 	  HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
