@@ -31,11 +31,14 @@ void setup(void)
 
 void loop(void)
 {
-  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_3);
+  HAL_Delay(500);
+  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);
+
 
   str_msg.data = hello;
   chatter.publish(&str_msg);
   nh.spinOnce();
 
-  HAL_Delay(1000);
+  HAL_Delay(500);
+  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);
 }
