@@ -40,7 +40,24 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=WINGS_SIGNAL_SCH.SchDoc
+DocumentPath=WINGS_SIGNAL_NODE_PCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UJJQUEBS
+
+[Document2]
+DocumentPath=WINGS_SIGNAL_NODE_SCH.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -56,8 +73,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TTTANKTX
 
-[Document2]
-DocumentPath=WINGS_SIGNAL_PCB.PcbDoc
+[Document3]
+DocumentPath=WINGS_SIGNAL_NODE_BOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -71,7 +88,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UJJQUEBS
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources
@@ -990,7 +1007,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=3
+SortOrder=1
 SortLocation=0
 ReplaceSubparts=0
 MatchParameter1=Comment
